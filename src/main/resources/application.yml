@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: dummy-dev
+
+server:
+  servlet:
+    context-path: /api/v1
+  profiles:
+    active: dev
+
+
